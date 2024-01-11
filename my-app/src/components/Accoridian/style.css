@@ -1,0 +1,27 @@
+
+.wrapper {
+    width: 500px;
+    margin:20px auto;
+    text-align: center;
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    background: #cd4545;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.accordion {
+    width: 400px;
+}
+.accordion-item {
+    background: #d54646;
+    border-radius: 10px;
+}
+.accordion-title {
+    cursor: pointer;
+}
