@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Accoridian from './components/Accoridian';
 import RandomColor from './components/random-colos';
+import StarRating from './components/star-rating';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
         {/* <Accoridian /> */}
 
       {/* Random Component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* Star-Rating */}
+      <StarRating  />
     </div>
   );
 }
