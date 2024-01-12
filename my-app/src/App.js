@@ -10,6 +10,7 @@ import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
 import GithubProgileFinder from './components/github-profile-fider';
+import SearchAutoComplete from './components/search-autocomple-with-api';
 
 function App() {
   return (
@@ -43,8 +44,11 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Gitbub profile component */}
-      <GithubProgileFinder />
-      
+      {/* <GithubProgileFinder /> */}
+
+      {/* Search autocomplete component */}
+      <SearchAutoComplete />
+
     </div>
   );
 }

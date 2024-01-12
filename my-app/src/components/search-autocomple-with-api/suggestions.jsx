@@ -1,0 +1,23 @@
+
+
+export default function Suggestion({data, handleClick}) {
+
+    return (
+        <>
+            <ul>
+                {
+                    data && data.length ?
+                        data.map((item, index) => {
+                            return (
+                                <li onClick={handleClick} key={index}>{item}</li>
+                            )
+                        })
+
+                    : null
+                }
+                
+            </ul>
+        </>
+
+    )
+}
