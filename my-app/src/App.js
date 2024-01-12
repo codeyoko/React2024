@@ -6,6 +6,7 @@ import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
+import LightDarkMode from './components/light-dark-mode';
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* Generator QR Code */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Light and Dark Theme Switch  */}
+      <LightDarkMode />
 
     </div>
   );
