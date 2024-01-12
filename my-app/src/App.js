@@ -4,6 +4,7 @@ import Accoridian from './components/Accoridian';
 import RandomColor from './components/random-colos';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
+import LoadMoreData from './components/load-more-data';
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
       {/* <StarRating  /> */}
 
       {/* Image Slide Component */}
-      <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'5'} />
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'5'} /> */}
+
+      {/* Product Component */}
+      <LoadMoreData />
     </div>
   );
 }
