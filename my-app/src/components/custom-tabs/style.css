@@ -1,0 +1,23 @@
+
+
+.tab-heading{
+    display: inline-block;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.tab-item {
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4d6868;
+    color: white;
+}
+.tab-item.active {
+    background-color: #e861d9;
+}
