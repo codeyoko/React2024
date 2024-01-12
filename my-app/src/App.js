@@ -7,6 +7,8 @@ import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
 import QRCodeGenerator from './components/qr-code-generator';
 import LightDarkMode from './components/light-dark-mode';
+import ScrollIndicator from './components/scroll-indicator';
+import TabTest from './components/custom-tabs/tab-test';
 
 function App() {
   return (
@@ -30,8 +32,15 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* Light and Dark Theme Switch  */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
 
+      {/* Scroll indicator */}
+      {/* <ScrollIndicator url={'https://6593ea911493b01160697424.mockapi.io/datas'} /> */}
+
+
+      {/* Taps Component */}
+
+      <TabTest />
     </div>
   );
 }
