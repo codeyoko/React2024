@@ -9,6 +9,7 @@ import QRCodeGenerator from './components/qr-code-generator';
 import LightDarkMode from './components/light-dark-mode';
 import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
+import GithubProgileFinder from './components/github-profile-fider';
 
 function App() {
   return (
@@ -39,8 +40,11 @@ function App() {
 
 
       {/* Taps Component */}
+      {/* <TabTest /> */}
 
-      <TabTest />
+      {/* Gitbub profile component */}
+      <GithubProgileFinder />
+      
     </div>
   );
 }
