@@ -12,6 +12,9 @@ import TabTest from './components/custom-tabs/tab-test';
 import GithubProgileFinder from './components/github-profile-fider';
 import SearchAutoComplete from './components/search-autocomple-with-api';
 import TicTacToe from './components/tic-tac-toe';
+import FeatureFlagGlobalState from './components/feature-flag/context';
+import FeatureFlags from './components/feature-flag';
+import UseFetchHookTest from './components/user-fetch-hook/test';
 
 function App() {
   return (
@@ -51,7 +54,15 @@ function App() {
       {/* <SearchAutoComplete /> */}
 
       {/* Tic-tac-toe Component */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* Feature Flag */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+
+      {/* Use Fetch Hook */}
+      <UseFetchHookTest />
 
     </div>
   );
