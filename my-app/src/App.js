@@ -11,6 +11,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
 import GithubProgileFinder from './components/github-profile-fider';
 import SearchAutoComplete from './components/search-autocomple-with-api';
+import TicTacToe from './components/tic-tac-toe';
 
 function App() {
   return (
@@ -47,7 +48,10 @@ function App() {
       {/* <GithubProgileFinder /> */}
 
       {/* Search autocomplete component */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      {/* Tic-tac-toe Component */}
+      <TicTacToe />
 
     </div>
   );
