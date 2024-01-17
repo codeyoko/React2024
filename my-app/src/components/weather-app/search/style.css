@@ -1,0 +1,33 @@
+
+.search-engine {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.search-engine input {
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.search-engine button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.weather-info {
+    background: linear-gradient(180deg, rgb(0, 255, 255), rgb(230, 184, 99));
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    margin:30px auto;
+    padding:20px;
+}
+.weather-info p {
+    color: blue;
+    font-size: 25px;
+}
