@@ -17,6 +17,8 @@ import FeatureFlags from './components/feature-flag';
 import UseFetchHookTest from './components/user-fetch-hook/test';
 import UseOnClickOutsideTest from './components/use-outside-click/test';
 import UseWindowResizeTest from './components/use-window-resize/test';
+import UseScrollTopToBottom from './components/use-scroll-bottom-top/test';
+import ScrollToSection from './components/use-scroll-bottom-top/scroll-to-section';
 
 function App() {
   return (
@@ -70,8 +72,15 @@ function App() {
       {/* <UseOnClickOutsideTest /> */}
 
       {/* Use Window Resize Hook */}
-      <UseWindowResizeTest />
-    </div>
+      {/* <UseWindowResizeTest /> */}
+
+      {/* Use Scroll Top To Bottom */}
+      {/* <UseScrollTopToBottom /> */}
+
+      {/* Scroll to a particular section */}
+      <ScrollToSection />
+  </div>
+
   );
 }
 
