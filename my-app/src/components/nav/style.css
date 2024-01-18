@@ -1,0 +1,17 @@
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+
+}
+input.bg-white\/75.p-3.px-8.rounded-full {
+    padding: 14px 35px;
+    border: navajowhite;
+    background-color: #dfa1a1;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
